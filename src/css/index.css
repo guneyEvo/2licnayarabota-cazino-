@@ -1,0 +1,558 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.navbanner {
+    background-image: url(../img/bg_main.jpg );
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+
+}
+
+
+nav {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+    padding: 20px;
+
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    display: flex;
+    gap: 30px;
+
+}
+
+.right button {
+    background-color: #ffc107a9;
+    border-radius: 30px;
+    padding: 10px 40px;
+    font-size: 20px;
+    border: none;
+
+}
+
+.right button:hover {
+    color: gray;
+}
+
+
+
+.navbar__item {
+font-size: 1.6vw;
+    color: white;
+
+}
+
+.duyme {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: -5%;
+    left: 50%;
+    transform: translate(-50%);
+
+}
+
+.duyme button {
+    border-color: white;
+    background-color: white;
+    color: black;
+    padding: 5px 70px;
+    border: 0;
+    transition: 2s;
+    font-size: larger;
+    position: absolute;
+    bottom: 5%;
+
+}
+
+.duyme button:hover {
+    border-radius: 30px;
+    border: 0;
+    background-color: #ffc107a9;
+}
+
+main {
+    background-color: #1b0905;
+    padding: 50px;
+}
+
+.our {
+    text-align: center;
+    margin-top: 20px;
+    color: #ffc107a9;
+    font-weight: bold;
+    font-size: 5vw;
+    margin-top: 30px;
+    padding: 20px;
+
+}
+
+.oxet {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.oxet hr {
+    width: 40%;
+}
+
+.gamesbox1 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 0px 90px;
+    margin-top: 50px;
+    position: relative;                                                                   
+    width: 100%;
+}
+
+.gamesbox1 img {
+    border: 15px solid #ffc107a9;
+    width: 350px;
+    height: 350px;
+
+}
+
+.gamesbox1 button {
+    background-color: #fff;
+    border: 5px solid #ffc107a9;
+    width: 175px;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    display: block;
+    gap: 20px;
+
+}
+
+.gamesbox2 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px 90px;
+    position: relative;
+
+}
+
+.gamesbox2 img {
+    border: 15px solid #ffc107a9;
+    width: 350px;
+    height: 350px;
+}
+
+.gamesbox2 button {
+    background-color: #fff;
+    border: 5px solid #ffc107a9;
+    width: 175px;
+    height: 40px;
+    position: absolute;
+    display: block;
+    bottom: 0;
+
+
+}
+
+.Licensing {
+    text-align: center;
+    color: #ffc107a9;
+    font-weight: bold;
+    font-size: 5vw;
+    border-bottom: #d7d7d4 solid;
+    margin-top: 50px;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 60px;
+
+}
+
+
+.slayd {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    height: 400px;
+    background-color: #ffc107a9;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.promotins {
+
+    display: block;
+    justify-content: left;
+    line-height: 28px;
+
+}
+
+.promotins h1 {
+    color: #1b0905;
+    margin-bottom: 30px;
+    font-size: 2.8vw;
+
+
+}
+
+.promotins p {
+    width: 60%;
+    color: #1b0905;
+    font-size: 1.6vw;
+
+}
+
+.promotins button {
+    color: #ffc107a9;
+    background-color: #1b0905;
+    padding: 15px 35px;
+    margin-top: 30px;
+    border: none;
+    font-size: 20px;
+}
+
+.promotins button:hover {
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    transition: 1s;
+}
+
+.licensing_swiper {
+    display: flex !important;
+    justify-content: center;
+}
+
+.mySwiper {
+    width: 100%;
+    position: relative !important;
+
+}
+
+.swiper-slide {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.strelkal {
+    background-color: #ffc107a9;
+    border-radius: 50%;
+    border: none;
+    padding: 25px;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    z-index: 1;
+}
+
+.fa-arrow-left {
+    color: white;
+    font-size: 30px;
+}
+
+.strelkar {
+    background-color: #ffc107a9;
+    border-radius: 50%;
+    border: none;
+    padding: 25px;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    z-index: 1;
+}
+
+.fa-arrow-right {
+    color: white;
+    font-size: 30px;
+
+}
+
+
+
+.tmany {
+    color: white;
+    text-align: center;
+    padding: 90px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    line-height: 28px;
+    font-size: 1.6vw;
+}
+
+.aboutspinit {
+    display: flex;
+    box-shadow: #0d0303 0px 0px 6px -1px;
+    gap: 40px;
+    color: #ffc107a9;
+    font-size: 2vw;
+    padding: 30px;
+    background-color: #1f0b04;
+    justify-content: center;
+    align-items: center;
+    margin: 0 89px;
+
+}
+
+.thereare {
+    display: flex;
+    gap: 30px;
+    padding: 0px 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.text {
+    width: 60%;
+    color: white;
+    text-align: left;
+    line-height: 28px;
+    font-size: 1.6vw;
+}
+
+.wekil {
+    border: 15px solid #ffc107a9;
+}
+
+.what {
+    text-align: center;
+    margin-top: 20px;
+    color: #ffc107a9;
+    font-weight: bold;
+    font-size: 5vw;
+    margin-top: 30px;
+
+    padding: 25px;
+
+}
+
+.wxet {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.wxet hr {
+
+    width: 50%;
+}
+
+.boxses {
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.box {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    line-height: 28px;
+    color: black;
+    width: 80%;
+    height: 400px;
+    background-color: #d7d7d4;
+    align-items: center;
+    padding: 45px;
+    font-size: 1.6vw;
+
+}
+
+.customer {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: -15%;
+
+}
+
+.customer img {
+    border: 10px solid #ffc107a9;
+    border-radius: 50%;
+}
+
+.regeste {
+    text-align: center;
+    color: #ffc107a9;
+    font-weight: bold;
+    font-size: 5vw;
+    padding: 25px;
+
+}
+
+.rxet {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+
+}
+
+.rxet hr {
+    width: 35%;
+}
+
+.forms {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 70px;
+
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form input {
+    display: flex;
+    width: 500px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    background-color: #1b0905;
+    border-left: none;
+    border-right: none;
+    font-size: 20px;
+    color: white;
+    border-top: none;
+}
+::placeholder{
+    color: white;
+}
+
+input:focus {
+    outline: none;
+}
+
+.form button {
+    border-radius: 40px;
+    color: white;
+    background-color: #1b0905;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    border-color: white;
+}
+
+.form button:hover {
+    color: black;
+    background-color: white;
+}
+
+.slk {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+}
+
+.slkleft {
+    position: relative;
+}
+
+.slkleft h2 {
+    color: #ffc107a9;
+    font-size: 2.3vw;
+    margin-bottom: 30px;
+}
+
+.slkleft button {
+    background-color: #1f0b04;
+    color: white;
+    border-radius: 40px;
+    padding: 10px 40px;
+    border-color: white;
+    position: absolute;
+    right: 0px;
+}
+
+.slkleft button:hover {
+    background-color: white;
+    color: black;
+}
+
+.slkleft input {
+    width: 400px;
+    background-color: #1b0905;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 20px;
+
+
+}
+
+.slkright {
+    display: flex;
+    
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.link h2 {
+    color: #ffc107a9;
+    font-size: 2.3vw;
+    margin-bottom: 10px;
+
+}
+
+.link a {
+    display: block;
+    color: white;
+    line-height: 28px;
+    font-size: 1.6vw;
+}
+
+.link a:hover {
+    color: #ffc107a9;
+}
+
+.contact h2 {
+    color: #ffc107a9;
+    font-size: 2.3vw;
+    margin-bottom: 10px;
+}
+
+.contact p {
+    color: white;
+    line-height: 28px;
+    font-size: 1.6vw;
+}
+
+.contact {
+    display: block;
+    width: 40%;
+}
+
+footer {
+    display: flex;
+    font-size: 20px;
+    height: 10vh;
+    background-color: #ffc107;
+    align-items: center;
+    justify-content: center;
+
+}
+
